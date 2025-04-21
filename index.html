@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vadym Demchevskyi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <div class="wrapper">
+        <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+            <svg class="dark-mode-toggle__icon dark-mode-toggle__icon--sun" viewBox="0 0 24 24">
+              <path d="M12 16a4 4 0 100-8 4 4 0 000 8zM12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+            </svg>
+            <svg class="dark-mode-toggle__icon dark-mode-toggle__icon--moon" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+            </svg>
+          </button>
+    <div class="cv">
+        <div class="cv__container">      
+                <header class="header">
+                    <img class="header__photo" src="./my-photo.jpg" alt="Photo of Vadym Demchevskyi">
+                    <h1 class="header__name">Vadym Demchevskyi</h1>
+                    <p class="header__title">Aspiring Frontend Developer with C++ Background</p>
+                    <address class="header__contacts">
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <a class="contacts__email" href="mailto:v.demchevskyi@proton.me">v.demchevskyi@proton.me</a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__phone" href="tel:+511314492">+511 314 492</a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__linkedin" href="https://linkedin.com/in/vadym-demchevskyi" target="_blank" rel="noopener">linkedin.com/in/vadym-demchevskyi</a>
+                            </li>
+                        </ul>
+                    </address>
+                </header>
+                <main class="main">
+                    <section class="about">
+                        <h2 class="about__title title">About Me</h2>
+                        <p class="about__text text">A dedicated and communicative first-year student at AGH University of Science and Technology, pursuing a degree in Technical-Informatics Education. With a robust background in C++ algorithms and a growing expertise in front-end development (HTML, CSS, JavaScript, jQuery, React, Bootstrap), I am passionate about solving complex problems and creating user-friendly solutions. My competitive experience in programming Olympiads, leadership qualities, and ability to thrive in team settings make me a strong candidate for innovative IT projects. Fluent in Polish (B2-C1 level) and actively enhancing my English through dedicated courses, I am committed to continuous learning and professional development.</p>
+                    </section>
+                    <section class="skills">
+                        <h2 class="skills__title title">My Skills</h2>
+                        <ul class="skills__list" role="list">
+                            <li class="skills__item">C++</li>
+                            <li class="skills__item">HTML5</li>
+                            <li class="skills__item">CSS3</li>
+                            <li class="skills__item">JavaScript</li>
+                        </ul>
+                    </section>
+                    <section class="experience">
+                        <h2 class="experience__title title">My Experience</h2>
+                        <article class="experience__item">
+                            <h3 class="experience__subtitle subtitle">Algorithm Developer</h3>
+                            <p class="experience__date date">2022 - 2024 | <span class="country">Ukraine</span></p>
+                            
+                                <ul class="experience__list" role="list">
+                                    <li>Solved over 700 coding challenges of varying complexity, honing algorithmic thinking and programming proficiency in C++.</li>
+                                    <li>Participated in regional and national programming Olympiads, securing multiple prize-winning positions.
+                                    </li>
+                                    <li>Frequently assisted peers in debugging and optimizing their code, developing a strong ability to navigate and understand unfamiliar codebases.</li>
+                                    <li>Built a solid foundation in C++ algorithms over 1.5 years of focused study, with the ability to quickly refresh and apply knowledge as needed.</li>
+                                </ul>
+                            
+                        </article>
+                        <article class="experience__item">
+                            <h3 class="experience__subtitle subtitle">Frontend Self-Development</h3>
+                            <p class="experience__date date">Summer 2024 - present | <span class="country">Poland</span></p>
+                            <ul class="experience__list" role="list">
+                                <li>Actively learning front-end technologies, including HTML, CSS, JavaScript, jQuery, React, and Bootstrap, through university coursework and self-directed study.</li>
+                                <li>Developing foundational skills in creating responsive and user-friendly web interfaces, with a strong desire to deepen expertise.
+                                </li>
+                                <li>I have several small, completed projects that I developed independently.</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="education">
+                        <h2 class="education__title title">My Education</h2>
+                        <article class="education__item">
+                            <h3 class="education__subtitle subtitle">Complete Secondary Education</h3>
+                            <p class="education__date date">2013 - 2024 | <span class="country">Ukraine</span></p>
+                            <p class="education__text text">Graduated with distinction in Informatics, demonstrating exceptional aptitude in programming and IT-related subjects, I developed a strong foundation in algorithmic problem-solving through coursework and extracurricular activities while actively participating in school-organized coding competitions and IT workshops.</p>
+                        </article>
+                        <article class="education__item">
+                            <h3 class="education__subtitle subtitle">Bachelor of Science in Technology and Computer Science</h3>
+                            <p class="education__date date">2024 - 2028 | <span class="country">Poland</span></p>
+                            <p class="education__text text">Studying core IT concepts with a focus on front-end development (HTML, CSS, JavaScript, jQuery, React, Bootstrap), I am engaged in hands-on projects to apply technical knowledge in real-world scenarios.</p>
+                        </article>
+                    </section>
+                    <section class="projects">
+                        <h2 class="projects__title title">My Projects</h2>
+                        <article class="project">
+                            <h3 class="project__title subtitle">First Project</h3>
+                            <p class="project__date date">HTML5, CSS3, JS | <span class="country">2025</span></p>
+                            <p class="project__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi officia dolores reprehenderit fuga temporibus optio praesentium delectus cum id?</p>
+                            <a class="project__link link" href="https://github.com/username/project1" target="_blank" rel="noopener">View on GitHub</a>
+                        </article>
+                        <article class="project">
+                            <h3 class="project__title subtitle">Second Project</h3>
+                            <p class="project__date date">C++ | <span class="country">2025</span></p>
+                            <p class="project__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi officia dolores reprehenderit fuga temporibus optio praesentium delectus cum id?</p>
+                            <a class="project__link link" href="https://github.com/username/project2" target="_blank" rel="noopener">View on GitHub</a>
+                        </article>
+                        <article class="project">
+                            <h3 class="project__title subtitle">Third Project</h3>
+                            <p class="project__date date">HTML5, CSS3, JS | <span class="country">2025</span></p>
+                            <p class="project__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi officia dolores reprehenderit fuga temporibus optio praesentium delectus cum id?</p>
+                            <a class="project__link link" href="https://github.com/username/project3" target="_blank" rel="noopener">View on GitHub</a>
+                        </article>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

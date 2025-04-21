@@ -108,7 +108,7 @@ body {
 }
 
 .dark-mode-toggle {
-  position: absolute;
+  position: fixed;
   z-index: 5;
   right: 50px;
   top: 20px;
